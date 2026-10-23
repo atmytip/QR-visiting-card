@@ -1,0 +1,63 @@
+* {
+  box-sizing:border-box}
+body {
+  margin:0;background:#f6f5f1;color:#3d4247;font:16px Arial,sans-serif}
+main {
+  width:min(100% - 40px,460px);margin:40px auto;padding:30px 0}
+header {
+  margin-bottom:28px}
+.brand {
+  font-size:46px;letter-spacing:-2px;font-weight:800;color:#262b30}
+.dot {
+  color:#ff650e}
+h1 {
+  font-size:23px;margin:24px 0 7px}
+p {
+  color:#81878c;line-height:1.6;margin:0;font-size:14px}
+nav a {
+  display:flex;gap:15px;align-items:center;min-height:79px;margin:12px 0;padding:16px 19px;border:1px solid #e5e6e5;border-radius:15px;color:#3d4247;text-decoration:none;background:#fff;box-shadow:0 3px 12px #22222203}
+a:hover,a:focus-visible {
+  border-color:#ff8e4c;outline:2px solid #ffdfca;background:#fffaf6}
+nav a>span:not(.platform-icon) {
+  flex:1;font-weight:600}
+small {
+  display:block;font-size:12px;font-weight:400;color:#93999e;margin-top:6px}
+b {
+  color:#a9afb3;font-size:23px;font-weight:400}
+.platform-icon {
+  width:39px;height:39px;display:grid;place-items:center;flex-shrink:0;border-radius:11px;background:#f7f8f8;font-size:24px;font-weight:700}
+.platform-icon svg {
+  width:25px;height:25px}
+.contact {
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+.contact a {
+  display:flex;gap:9px;align-items:center;justify-content:center;padding:17px 10px;border-radius:12px;background:#ff650e;color:white;font-size:14px;text-decoration:none;font-weight:600}
+.contact a:last-child {
+  background:#343d44}
+.contact svg {
+  width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8}
+footer {
+  font-size:12px;color:#92989c;text-align:center;margin-top:26px;line-height:1.9}
+.eyebrow {
+  font-size:10px;letter-spacing:2px;color:#e76522;margin:9px 0 0}
+.brand-logo {
+  width:250px;height:94px;overflow:hidden}
+.brand-logo img {
+  width:250px;height:250px;margin-top:-83px;display:block}
+@media(max-width:360px) {
+  main {
+  width:calc(100% - 28px)}
+.contact {
+  gap:8px}
+.contact a {
+  font-size:13px}
+}
+
+
+.save-contact{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:24px;padding:18px;border-radius:14px;border:1px solid #ff650e;background:#fff3e9;color:#bf4805;text-decoration:none;font-size:16px;font-weight:600}.save-contact small{color:#88796f;font-size:12px;font-weight:400;margin-top:5px}.save-contact svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.7}.save-contact:hover,.save-contact:focus-visible{background:#ffe8d6;outline:2px solid #ffbd93;outline-offset:3px}
+
+/* Match the save action to the Call and Email buttons. */
+.contact .save-contact{grid-column:1;width:100%;min-height:52px;margin:0;padding:17px 10px;border:0;border-radius:12px;background:#ff650e;color:#fff;font-size:14px;font-weight:600;gap:9px}.contact .save-contact svg{width:18px;height:18px}.contact .save-contact small{display:none}
+
+/* Three equal contact actions: Call, Save, Email. */
+.contact{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.contact a,.contact .save-contact{grid-column:auto;min-height:56px;padding:12px 5px;gap:6px;font-size:12px;text-align:center}.contact .save-contact{background:#fff3e9;color:#c14a0a;border:1px solid #ff650e}.contact a svg{flex-shrink:0;width:16px;height:16px}@media(max-width:360px){.contact a,.contact .save-contact{font-size:11px;gap:4px}}
