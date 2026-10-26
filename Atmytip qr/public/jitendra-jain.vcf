@@ -1,7 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
+N:Atmytip;;
 FN:Atmytip
-ORG:Atmytip
+ORG:Atmytip Software Solutions Pvt Ltd
 TEL;TYPE=CELL,VOICE:+919788688868
 EMAIL;TYPE=INTERNET,WORK:hello@atmytip.com
 ADR;TYPE=WORK:;; ;Pune;Maharashtra;411014;India
